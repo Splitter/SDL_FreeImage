@@ -1,2 +1,2 @@
 # SDL_FreeImage
-A small library to convert back and forth between SDL surfaces and FreeImage FIBitmaps. 
+SDL natively only supports a handful of image formats. And even with the extra SDL_Image library the count is still less then a dozen image formats. FreeImage on the otherhand supports 35 file formats. Born from a need to display realtime changes to an image, in a format not supported by SDL, this library allows one to convert back and forth between SDL_Surface objects and FreeImage FIBitmap structures. 
